@@ -28,4 +28,11 @@
     const numbers = findNumbers()!;
     numbers.push(2); // 😱 진짜진짜 undefined가 아니라 값이 있다고 장담할때 
 
+    const button = document.querySelector('id')!;
+    if (button) {
+        button.nodeValue;
+    }
+    button!.nodeValue; // 정말정말 버튼이 있다고 장담할 수 있을 때 
+
+
 }
